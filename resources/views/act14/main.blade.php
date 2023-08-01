@@ -29,7 +29,7 @@
                         </div>
                         <div>
                             <button class="bg-slate-700 font-family px-1 py-4 rounded-2xl
-                            transition duration-100 ease-in-out hover:scale-110 hover:invert hover:bg-black">LogOut</button>
+                            transition duration-100 ease-in-out hover:scale-110 hover:invert hover:bg-black"><a href="{{route('act14.login')}}">LogOut</a></button>
                         </div>
                     </div>
                 </div>

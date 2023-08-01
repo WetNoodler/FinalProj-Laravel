@@ -19,11 +19,11 @@
                 <div class="relative bg-slate-300 rounded-b-2xl rounded-t-xl py-4">
                     <div class="font-black text-4xl">Register</div> <br>
 
-                    <form action="">
+                    <form action="{{route('act14.login')}}">
                         <input type="text" class="px-2 font-family rounded-lg text-2xl ring-4 ring-gray-950 mb-4" placeholder="Email"> <br>
                         <input type="text" class="px-2 font-family rounded-lg text-2xl ring-4 ring-gray-950 mb-4" placeholder="Username"> <br>
                         <input type="text" class="px-2 font-family rounded-lg text-2xl ring-4 ring-gray-950" placeholder="Password"> <br> <br>
-                        <button class="bg-white font-black px-6 py-2 rounded-lg hover:shadow-md hover:shadow-white">Login</button>
+                        <button class="bg-white font-black px-6 py-2 rounded-lg hover:shadow-md hover:shadow-white">Register</button>
                     </form>
 
                     <div class="absolute bottom-0 left-0">
