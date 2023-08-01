@@ -1,0 +1,16 @@
+.miku {
+    background-image: url('https://ec.crypton.co.jp/img/special/vocaloid/img_MIKU_us.png');
+}
+.font-family {
+    font-family:'Times New Roman', Times, serif
+}
+.knight-bg {
+    background-image: url('https://cdn.steamstatic.com/steamcommunity/public/images/items/367520/88ae94fbfb817750fd86ce7c0f1656e832bd0638.jpg');    
+}
+.butterfly-bg {
+    background-image: url('https://trumpwallpapers.com/wp-content/uploads/Hollow-Knight-Wallpaper-10-1920x1080-1.jpg');
+}
+
+/* 
+<link rel="stylesheet" href="{{ asset("css/class.css")}}">
+*/
