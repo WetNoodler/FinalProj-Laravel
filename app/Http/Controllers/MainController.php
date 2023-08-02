@@ -6,9 +6,11 @@ use Illuminate\Http\Request;
 
 class MainController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
-        return view('act14.main');
+        return view('act14.main')->with([
+            'currentPage' => $request->currentPage
+        ]);
     }
 
     public function create()
@@ -49,19 +51,25 @@ class MainController extends Controller
         return view('act14.register');
     }
 
-    public function cart(){
-        //
+    public function cart(Request $request){
+        return view('act14.cart')->with([
+            'currentPage' => $request->currentPage
+        ]);
     }
 
     public function review(){
         //
     }
 
-    public function profile(){
-        //
+    public function profile(Request $request){
+        return view('act14.profile')->with([
+            'currentPage' => $request->currentPage
+        ]);
     }
 
-    public function details(){
-        //
+    public function details(Request $request){
+        return view('act14.detail')->with([
+            'currentPage' => $request->currentPage
+        ]);
     }
 }

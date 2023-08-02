@@ -22,4 +22,7 @@ Route::prefix('/main')->controller(MainController::class)->group(function(){
     Route::get('/', 'index')->name('act14.main');
     Route::get('/login', 'login')->name('act14.login');
     Route::get('/register', 'registration')->name('act14.register');
+    Route::get('/details', 'details')->name('act14.details');
+    Route::get('/cart', 'cart')->name('act14.cart');
+    Route::get('/profile', 'profile')->name('act14.profile');
 });

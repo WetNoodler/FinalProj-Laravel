@@ -6,10 +6,8 @@
     <x-css-class/>
     <body class="knight-bg">
 
-        <div class="box-content h-24 w-full bg-slate-950 text-white shadow-2xl shadow-white fixed z-0">
-            <div class="p-6 font-black text-2xl">
+        <div class="box-content p-6 w-full font-black text-2xl bg-slate-950 text-white shadow-2xl shadow-white fixed z-0" style="height: 3rem">
                 <img src="https://www.pngmart.com/files/22/Hollow-Knight-Logo-PNG-Image.png" class="w-36">
-            </div>
         </div> 
         <br> <br> <br> <br>
 

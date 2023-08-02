@@ -6,10 +6,8 @@
     <x-css-class/>
     <body class="knight-bg">
 
-        <div class="box-content h-24 w-full bg-slate-950 text-white shadow-2xl shadow-white fixed z-0">
-            <div class="p-6 font-black text-2xl">
-                <img src="https://www.pngmart.com/files/22/Hollow-Knight-Logo-PNG-Image.png" class="w-36">
-            </div>
+        <div class="box-content p-6 w-full font-black text-2xl bg-slate-950 text-white shadow-2xl shadow-white fixed z-0" style="height: 3rem">
+            <img src="https://www.pngmart.com/files/22/Hollow-Knight-Logo-PNG-Image.png" class="w-36">
         </div> 
         <br> <br> <br> <br>
 
@@ -20,6 +18,7 @@
                     <div class="font-black text-4xl">Login</div> <br>
 
                     <form action="{{route('act14.main')}}">
+                        <input type="hidden" name="currentPage" value="Shop">
                         <input type="text" class="px-2 font-family rounded-lg text-2xl ring-4 ring-gray-950 my-4" placeholder="Email or Username"> <br> <br>
                         <input type="password" class="px-2 font-family rounded-lg text-2xl ring-4 ring-gray-950" placeholder="Password"> <br> <br>
                         <button class="bg-white font-black px-6 py-2 rounded-lg hover:shadow-md hover:shadow-white">Log-in</button>
