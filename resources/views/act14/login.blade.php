@@ -40,7 +40,7 @@
             <x-div-break/>
             <div class="bg-slate-900 border-2 border-white rounded-2xl h-fit w-full p-4 z-20 shadow-2xl shadow-white">
                 <div class="relative bg-slate-300 rounded-b-2xl rounded-t-xl py-4">
-                    <div class="mb-4 font-bold text-3xl italic">ABOUT</div>
+                    <div class="mb-4 font-bold text-3xl italic">ABOUT HOLLOW KNIGHT</div>
 
                     <button class="mb-2 bg-red-900 font-black font-family text-xl p-2 rounded-xl text-white hover:bg-red-600 hover:text-slate-100">
                         <a href="https://www.hollowknight.com/">Team Cherry</a>
